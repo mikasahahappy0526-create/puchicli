@@ -1,6 +1,6 @@
 # プチクリ APK 配布
 
-- `dist/puchicli-debug.apk` — 最新（いま 0.1.2-debug）
-- 0.1.2: 開始時のスクロール回帰を修正（停止・緑赤ボタン・アプリ情報ショートカットは維持）
+- `dist/puchicli-debug.apk` — 最新（いま 0.1.3-debug）
+- 0.1.3: 浮遊ドラッグメニュー、経路非表示、開始時に TikTok Lite 起動
 
 直リンク: https://puchicli.pages.dev/dist/puchicli-debug.apk
