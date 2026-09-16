@@ -1,6 +1,6 @@
 # プチクリ APK 配布
 
-- `dist/puchicli-debug.apk` — 最新（いま 0.1.4-debug）
-- 0.1.4: 開始/停止の状態表示、毎日午前2時スケジュール、画面オフ時の起こし（ベストエフォート）
+- `dist/puchicli-debug.apk` — 最新（いま 0.1.5-debug）
+- 0.1.5: 毎日の起動時刻を任意の時・分で設定、「5分後」など分単位の予約開始
 
 直リンク: https://puchicli.pages.dev/dist/puchicli-debug.apk
