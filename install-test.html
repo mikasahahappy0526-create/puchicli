@@ -26,7 +26,7 @@
     <img class="icon" src="./favicon-192.png" alt="アライブ">
     <h1>アライブ</h1>
     <p class="ver">オートクリッカー · Android APK · 0.2.01（試験）</p>
-    <p class="note" style="opacity:.95;margin:0 0 12px;color:#fbbf24">※ これは試験配布用です。本番の install.html / alive.apk とは別ファイルです（versionCode 141: その日（日本時間）の最初の開始のときだけ、まず指定の TikTok 動画のリンク（https://lite.tiktok.com/t/ZS9DH5R9K8XRN-uHK8R/）を TikTok Lite で開き、5秒待ってから最近使ったアプリを全部閉じ（タスクキル）、そのあといつもの開始処理をする。同じ日の2回目以降の開始はリンクもタスクキルもなし。リンクを開いた直後の待ちの間と動画再生中（スワイプの合間）に、TikTok の権限ダイアログ（連絡先などへのアクセス）が出たら「許可しない」を押して閉じる。途中で停止すればそこで止まる。チェックインまわりは 134 と同じ。全台配布はまだ）。</p>
+    <p class="note" style="opacity:.95;margin:0 0 12px;color:#fbbf24">※ これは試験配布用です。本番の install.html / alive.apk とは別ファイルです（versionCode 143: vc141 の緊急修正。スワイプの合間に呼ぶ権限ダイアログ処理のメソッド指定ずれ（NoSuchMethodError）でクラッシュしていたのを修正し、処理を try/catch で囲んでスワイプが止まらないようにした。ユーザー補助の登録が短い書き方でも on と判定する。リンク→5秒→タスクキルは 141 と同じで、その日の最初の開始だけ。全台配布はまだ）。</p>
     <p class="note" style="opacity:.9;margin:0 0 12px">※ 0.2.01 は 0.1.92 と同じ署名です。0.1.92 以降からは上書きで更新できます。0.1.91 以前だけ、一度アンインストールしてから入れてください。</p>
     <p class="note" style="opacity:.9;margin:0 0 12px;text-align:left">0.2.01 追加版<br>動画再生時刻は、1日目から5日目は120分、6日目から10日目は180分、11日目以降はオフです。<br>時刻表示とオンオフボタンは、左と右に離して表示します。</p>
     <a class="btn" id="dl" href="./alive-test.apk" download="alive-test.apk">タップしてダウンロード</a>
